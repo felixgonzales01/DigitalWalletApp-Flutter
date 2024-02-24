@@ -1,17 +1,48 @@
+# Digital Wallet App
 
-# myflutter
+A modern, lightweight mobile application built with Flutter. Designed to manage digital transactions effortlessly, this app combines functionality with a sleek, user-friendly interface to provide an optimal user experience for managing finances on the go.
 
-This is a Flutter application that provides a simple user interface with three screens: Start Screen, Home Screen, and Login Screen. It is built using the Get package for state management.
+## Features
+
+- **User Authentication**: Secure login and signup functionalities to keep your wallet protected.
+- **Transaction History**: View a detailed history of your income and expenses.
+- **Wallet Management**: Easily add, remove, or edit your wallet accounts.
+- **Instant Payments**: Send and receive money instantly with just a few taps.
+- **Profile Customization**: Customize your profile for a personalized app experience.
 
 ## Getting Started
 
-To get started, clone this repository and run `flutter pub get` to install the dependencies. Then run `flutter run` to launch the app. 
+These instructions will get you a copy of the project up and running on your local machine for development and testing purposes.
 
-## Screens 
-- Start Screen: This is the initial screen of the app. 
-- Home Screen: This screen displays the main content of the app. 
-- Login Screen: This screen allows users to log in to their account. 
+### Prerequisites
 
-## Built With 
-- [Flutter](https://flutter.dev/) - Cross-platform mobile framework for iOS and Android 
-- [Get](https://pub.dev/packages/get) - State management package for Flutter
+Before you begin, ensure you have the following tools installed on your system:
+- Flutter (latest version)
+- Dart (latest version)
+- A preferred IDE (Android Studio/VS Code)
+
+### Installation
+
+1. Clone the repository:
+```bash
+git clone https://github.com/felixgonzales01/DigitalWalletApp-Flutter.git
+```
+
+2. Navigate to the project directory:
+```bash
+cd DigitalWalletApp-Flutter
+```
+
+3. Fetch all the dependencies:
+```bash
+flutter pub get
+```
+
+4. Run the app on your connected device or emulator:
+```bash
+flutter run
+```
+
+## Usage
+
+After installation, you can start using the app by registering a new user or logging in with existing credentials. Navigate through the app using the bottom navigation bar to access different functionalities like viewing your transaction history, managing your wallets, and making transactions.
